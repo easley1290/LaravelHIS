@@ -18,3 +18,4 @@ Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 
 Route::get('dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('lista-ufv', 'ufvController@index')->name('ufv');
